@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgproductos"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/productos"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/prodName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre del Producto" />
+
+            <TextView
+                android:id="@+id/ProdDesciption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción" />
+
+            <TextView
+                android:id="@+id/ProdPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnProductos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Productos" />
+
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imgServicios"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/servicios"  />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvServName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servicio" />
+
+            <TextView
+                android:id="@+id/tvServDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción" />
+                //android:background="@color/head3"
+
+
+            <TextView
+                android:id="@+id/tvServPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio" />
+
+            <EditText
+                android:id="@+id/edtServ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+            <Button
+                android:id="@+id/btnServicios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="servicios" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imgSucursales"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sucursales" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSucName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sucursal" />
+
+            <TextView
+                android:id="@+id/tvSucDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubicación" />
+
+            <TextView
+                android:id="@+id/tvSucLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horario de Atención" />
+            <EditText
+                android:id="@+id/edtSuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+            <Button
+                android:id="@+id/btnSucursales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sucursales" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
